@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .boxes{
+            display: flex;
+        }
+        .box{
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            color: white;
+            margin: 5px;
+        }
+        @media screen and (max-width: 455px) {
+            .boxes{
+                flex-direction: column;
+            }
+            body{
+                background-color: purple;
+            }
+        }
+        body{
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <div class="boxes">
+        <div class="box">Hello I am a red boy</div>
+        <div class="box">Hello I am a red boy</div>
+        <div class="box">Hello I am a red boy</div>
+    </div>    
+</body>
+</html>

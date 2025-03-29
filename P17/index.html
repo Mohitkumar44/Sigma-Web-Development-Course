@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More on CSS Selectors</title>
+</head>
+<style>
+    .boxes *{
+        /* color: blue; */
+        /* border: 2px solid black; */
+        margin: 10px;
+    }
+    .boxes::before{
+        content: "Hello, I am a good boy";
+        color: rgb(59, 59, 193);
+    }
+    .boxes::after{
+        content: "This line will be shown after the content";
+        color: red;
+    }
+    .boxes ::first-letter{
+        color: peru;
+        font-size: 45px;
+    }
+    input::placeholder{
+        /* font-size: 45px; */
+        /* background-color: antiquewhite; */
+        /* border-radius: 45px; */
+        /* border: 2px solid black; */
+        color: gray;
+    }
+</style>
+
+<body>
+    <div class="boxes">
+        <div class="box">This is the first box</div>
+        <div class="box">Hey I am a box</div>
+        <div class="box">Hey I am a box</div>
+        <input type="text" placeholder="Type your name here">
+    </div>
+</body>
+
+</html>

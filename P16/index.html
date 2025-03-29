@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Float & Clear</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .cards{
+            border: 2px solid black;
+            display: flow-root;
+        }
+        img{
+            float: left;
+        }
+        .card{
+            border: 2px solid red;
+        }
+        .cards :nth-child(3){
+            clear: both;
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <div class="cards">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNaS_3OhUbOeiGtME4uV8rfa-jgCAx_Y-mbhXE5cfhC2-hkitbUSiUmQ5LiBQYS9ehapI&usqp=CAU" alt="images?" width="300px">
+        <div class="card">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit, quam temporibus explicabo quisquam laudantium nisi, sit similique magni iure maiores magnam. Quisquam corrupti ipsa eum quasi fugit accusamus ullam, itaque vero inventore assumenda accusantium!</div>
+        <div class="card">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel ullam inventore, maiores aspernatur fuga harum quidem distinctio illum similique. Aliquid modi sed consequatur aperiam quis maxime incidunt blanditiis necessitatibus laborum inventore velit quia sit ipsum distinctio, aut asperiores magnam. Est laborum commodi cumque incidunt ducimus voluptas asperiores dignissimos, pariatur exercitationem nisi, maiores qui quis necessitatibus possimus earum, magni ut odit iusto porro. Debitis dolorum est excepturi quaerat enim, nulla laudantium rerum. Tempora debitis sed asperiores vitae! Voluptatum expedita accusantium minus enim quisquam cumque, quo sit. Quaerat itaque inventore quas unde quo mollitia tempore asperiores eveniet molestias reiciendis! Itaque, nisi saepe expedita suscipit quaerat cupiditate corrupti repellendus nulla illo esse? In ipsa distinctio repellat rem. Nam neque fuga ad ipsam optio quod consectetur nostrum blanditiis ullam ratione! Maxime harum unde architecto corporis sed quisquam perspiciatis ipsa libero molestias consequuntur ut, accusantium hic optio minus, repudiandae odit. Sapiente quod officia provident consequatur molestias nulla ipsa! Ipsam vitae totam et natus, aut temporibus error quasi sunt quis hic facilis voluptate praesentium excepturi veniam quas dolorum. Blanditiis, ea maxime quo est consectetur fugit quis porro illum ipsa iusto ipsam minima adipisci quasi, rerum vero labore quos placeat eveniet at ullam. Tempora obcaecati perspiciatis velit. </div>
+        <div class="card">card 3</div>
+    </div>
+</body>
+</html>

@@ -102,28 +102,94 @@
             font-size: 14px;
             font-weight: 700;
         }
-        .version{
+
+        .version {
             display: flex;
         }
-        .version img{
+
+        .version img {
             margin-top: 76px;
             margin-left: 128px;
         }
-        .version h3{
+
+        .version h3 {
             font-weight: normal;
             font-size: 24px;
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
             margin-top: 86px;
             margin-left: 18px;
         }
-        .version p{
+
+        .version p {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
             font-size: 14px;
             font-weight: 400;
             margin-top: 95px;
             margin-left: 9px;
         }
-    </style>
+
+        .boxes {
+            width: 800px;
+            margin-left: 130px;
+            margin-top: 40px;
+            grid-template-columns: 1fr 1fr 1fr;
+            display: grid;
+            gap: 25px;
+            text-align: center;
+        }
+        
+        h3 {
+            padding-bottom: 10px;
+        }
+        
+        h4 {
+            font-weight: normal;
+            font-size: 12px;
+            padding-bottom: 10px;
+            margin-top: 10px;
+        }
+        
+        .box {
+            border-radius: 5px;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+            height: 180px;
+            background-color: #f9f9f9;
+            display: inline-block;
+            width: 270px;
+            padding: 16px;
+            justify-items: center;
+        }
+
+        .Downloadbutton {
+            height: 35px;
+            width: 150px;
+            background-color: #5cb85c;
+            justify-content: center;
+            align-content: center;
+            border-radius: 6px;
+            margin-top: 10px;
+        }
+
+        .Downloadbutton a {
+            text-decoration: none;
+            color: white;
+            font-size: 12px;
+            font-weight: 600;
+        }
+        .firstbutton{
+            margin-top: 50px;
+        }
+        .textarea :first-child{
+            margin-top: 10px;
+            font-size: 10px;
+        }
+        .textarea :nth-child(2){
+            font-size: 8px;
+            word-break: break-all;
+            padding: 5px 15px;
+            line-height: 1rem;
+        }
+        </style>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -177,6 +243,139 @@
                 <img src="UE_logo_icon_white.png" alt="logo" width="60" height="60">
                 <h3>Download UltraEdit </h3>
                 <p>v2024.3.0.15 (released 2025-04-25) | Hotfix information</p>
+            </div>
+        </section>
+        <section>
+            <div class="boxes">
+                <div class="box1 box">
+                    <h3>English</h3>
+                    <div class="Downloadbutton firstbutton">
+                        <a href="ue_english_64.exe">Download 64-bit</a>
+                    </div>
+                    <div class="textarea">
+                        <p>SHA256</p>
+                        <p>
+                            F710BF78A1948AA9DD9F7090192DA527097C05B9C483F455A05E93292D91AE27
+                        </p>
+                    </div>
+                </div>
+                <div class="box2 box">
+                    <h3>Deutsch</h3>
+                    <h4>German</h4>
+                    <div class="Downloadbutton">
+                        <a href="ue_english_64.exe">Download 64-bit</a>
+                    </div>
+                    <div class="textarea">
+                        <p>SHA256</p>
+                        <p>
+                            F710BF78A1948AA9DD9F7090192DA527097C05B9C483F455A05E93292D91AE27
+                        </p>
+                    </div>
+                </div>
+                <div class="box3 box">
+                    <h3>Italiano</h3>
+                    <h4>Italian</h4>
+                    <div class="Downloadbutton">
+                        <a href="ue_english_64.exe">Download 64-bit</a>
+                    </div>
+                    <div class="textarea">
+                        <p>SHA256</p>
+                        <p>
+                            F710BF78A1948AA9DD9F7090192DA527097C05B9C483F455A05E93292D91AE27
+                        </p>
+                    </div>
+                </div>
+                <div class="box4 box">
+                    <h3>Español</h3>
+                    <h4>Spanish</h4>
+                    <div class="Downloadbutton">
+                        <a href="ue_english_64.exe">Download 64-bit</a>
+                    </div>
+                    <div class="textarea">
+                        <p>SHA256</p>
+                        <p>
+                            F710BF78A1948AA9DD9F7090192DA527097C05B9C483F455A05E93292D91AE27
+                        </p>
+                    </div>
+                </div>
+                <div class="box5 box">
+                    <h3>français</h3>
+                    <h4>French</h4>
+                    <div class="Downloadbutton">
+                        <a href="ue_english_64.exe">Download 64-bit</a>
+                    </div>
+                    <div class="textarea">
+                        <p>SHA256</p>
+                        <p>
+                            F710BF78A1948AA9DD9F7090192DA527097C05B9C483F455A05E93292D91AE27
+                        </p>
+                    </div>
+                </div>
+                <div class="box6 box">
+                    <h3>Português brasileiro</h3>
+                    <h4>Brazilian Portuguese</h4>
+                    <div class="Downloadbutton">
+                        <a href="ue_english_64.exe">Download 64-bit</a>
+                    </div>
+                    <div class="textarea">
+                        <p>SHA256</p>
+                        <p>
+                            F710BF78A1948AA9DD9F7090192DA527097C05B9C483F455A05E93292D91AE27
+                        </p>
+                    </div>
+                </div>
+                <div class="box7 box">
+                    <h3>日本</h3>
+                    <h4>Japanese</h4>
+                    <div class="Downloadbutton">
+                        <a href="ue_english_64.exe">Download 64-bit</a>
+                    </div>
+                    <div class="textarea">
+                        <p>SHA256</p>
+                        <p>
+                            F710BF78A1948AA9DD9F7090192DA527097C05B9C483F455A05E93292D91AE27
+                        </p>
+                    </div>
+                </div>
+                <div class="box8 box">
+                    <h3>한국어</h3>
+                    <h4>Korean</h4>
+                    <div class="Downloadbutton">
+                        <a href="ue_english_64.exe">Download 64-bit</a>
+                    </div>
+                    <div class="textarea">
+                        <p>SHA256</p>
+                        <p>
+                            F710BF78A1948AA9DD9F7090192DA527097C05B9C483F455A05E93292D91AE27
+                        </p>
+                    </div>
+                </div>
+                <div class="box9 box">
+                    <h3>华语</h3>
+                    <h4>Chinese</h4>
+                    <div class="Downloadbutton">
+                        <a href="ue_english_64.exe">Download 64-bit</a>
+                    </div>
+                    <div class="textarea">
+                        <p>SHA256</p>
+                        <p>
+                            F710BF78A1948AA9DD9F7090192DA527097C05B9C483F455A05E93292D91AE27
+                        </p>
+                    </div>
+                </div>
+                <div class="box10 box">
+                    <h3>華語</h3>
+                    <h4>Traditional Chinese</h4>
+                    <div class="Downloadbutton">
+                        <a href="ue_english_64.exe">Download 64-bit</a>
+                    </div>
+                    <div class="textarea">
+                        <p>SHA256</p>
+                        <p>
+                            F710BF78A1948AA9DD9F7090192DA527097C05B9C483F455A05E93292D91AE27
+                        </p>
+                    </div>
+                </div>
             </div>
         </section>
     </main>

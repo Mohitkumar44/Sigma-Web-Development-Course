@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercise-7 xvel Ball</title>
+    <title>Exercise-8 xvel Ball</title>
     <style>
         .container{
             background-color: blue;
@@ -12,6 +12,7 @@
             margin: auto;
             margin-top: 50px;
             position: relative;
+            overflow: hidden;
         }
         .ball{
             width: 60px;
@@ -21,16 +22,26 @@
             bottom: 0;
             left: 5px;      
             border-radius: 70px;  
-            transition: all 3s ease-in-out 1s;
         }
-        .xvel{
-            transform: translateX(74vw);
+        .animation{
+            animation: bounceY 0.5s cubic-bezier(0, 0, 0.37, 0.97) 1s infinite alternate,
+            moveX 5s linear 1s infinite;
+        }
+        @keyframes bounceY {
+            to{
+                transform: translatey(-400px);
+            }
+        }
+        @keyframes moveX {
+            to{
+                transform: translateX(1077px);
+            }
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <div class="ball xvel"></div>
+        <div class="ball animation"></div>
     </div>
 </body>
 </html>

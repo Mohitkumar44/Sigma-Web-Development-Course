@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercise-7 Bounce Ball</title>
+    <title>Exercise-7 xvel Ball</title>
     <style>
         .container{
             background-color: blue;
@@ -20,13 +20,17 @@
             position: absolute;
             bottom: 0;
             left: 5px;      
-            border-radius: 70px;      
+            border-radius: 70px;  
+            transition: all 3s ease-in-out 1s;
+        }
+        .xvel{
+            transform: translateX(74vw);
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <div class="ball"></div>
+        <div class="ball xvel"></div>
     </div>
 </body>
 </html>

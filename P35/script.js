@@ -5,6 +5,7 @@
 // console.log(obj)
 // let animal = {
 //     eats : true
+// }
 // let rabbit = {
 //     jumps : true
 // }
